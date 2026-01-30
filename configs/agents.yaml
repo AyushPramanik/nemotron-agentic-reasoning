@@ -1,0 +1,10 @@
+model: nemotron:8b-q4
+solver:
+  temperature: 0.7
+critic:
+  temperature: 0.2
+verifier:
+  temperature: 0.0
+refiner:
+  temperature: 0.5
+max_tokens: 400
